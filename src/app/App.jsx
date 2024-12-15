@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Index  from "./home";
+import Index  from "./home/home";
 import GlobalProvider from '../context/GlobalProvider';
 import { AuthStackGroup } from '../route/auth.route';
 import { IndexStackGroup } from '../route/index.route';
